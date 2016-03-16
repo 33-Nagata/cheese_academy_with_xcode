@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBE9112D1C996B860090FC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE9112C1C996B860090FC25 /* AppDelegate.swift */; };
+		DBE9112F1C996B860090FC25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE9112E1C996B860090FC25 /* ViewController.swift */; };
+		DBE911321C996B860090FC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE911301C996B860090FC25 /* Main.storyboard */; };
+		DBE911341C996B860090FC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE911331C996B860090FC25 /* Assets.xcassets */; };
+		DBE911371C996B860090FC25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE911351C996B860090FC25 /* LaunchScreen.storyboard */; };
+		DBE911421C996B870090FC25 /* cheese_academyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE911411C996B870090FC25 /* cheese_academyTests.swift */; };
+		DBE9114D1C996B870090FC25 /* cheese_academyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE9114C1C996B870090FC25 /* cheese_academyUITests.swift */; };
+		DBE911721C997EBC0090FC25 /* bg-cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE9115B1C997EBC0090FC25 /* bg-cheese.jpg */; };
+		DBE911731C997EBC0090FC25 /* btn-entry.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE9115C1C997EBC0090FC25 /* btn-entry.png */; };
+		DBE911741C997EBC0090FC25 /* btn-pagetop.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE9115D1C997EBC0090FC25 /* btn-pagetop.png */; };
+		DBE911751C997EBC0090FC25 /* catch.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE9115E1C997EBC0090FC25 /* catch.png */; };
+		DBE911761C997EBC0090FC25 /* cource-academy.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE9115F1C997EBC0090FC25 /* cource-academy.png */; };
+		DBE911771C997EBC0090FC25 /* cource-lab.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE911601C997EBC0090FC25 /* cource-lab.png */; };
+		DBE911781C997EBC0090FC25 /* gallery01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE911611C997EBC0090FC25 /* gallery01.jpg */; };
+		DBE911791C997EBC0090FC25 /* gallery02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE911621C997EBC0090FC25 /* gallery02.jpg */; };
+		DBE9117A1C997EBC0090FC25 /* gallery03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE911631C997EBC0090FC25 /* gallery03.jpg */; };
+		DBE9117B1C997EBC0090FC25 /* gallery04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE911641C997EBC0090FC25 /* gallery04.jpg */; };
+		DBE9117C1C997EBC0090FC25 /* gallery05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE911651C997EBC0090FC25 /* gallery05.jpg */; };
+		DBE9117D1C997EBC0090FC25 /* gallery06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE911661C997EBC0090FC25 /* gallery06.jpg */; };
+		DBE9117E1C997EBC0090FC25 /* gallery07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE911671C997EBC0090FC25 /* gallery07.jpg */; };
+		DBE9117F1C997EBC0090FC25 /* gallery08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE911681C997EBC0090FC25 /* gallery08.jpg */; };
+		DBE911801C997EBC0090FC25 /* gallery09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE911691C997EBC0090FC25 /* gallery09.jpg */; };
+		DBE911811C997EBC0090FC25 /* gallery10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE9116A1C997EBC0090FC25 /* gallery10.jpg */; };
+		DBE911821C997EBC0090FC25 /* gallery11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE9116B1C997EBC0090FC25 /* gallery11.jpg */; };
+		DBE911831C997EBC0090FC25 /* gallery12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE9116C1C997EBC0090FC25 /* gallery12.jpg */; };
+		DBE911841C997EBC0090FC25 /* kunsei_cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE9116D1C997EBC0090FC25 /* kunsei_cheese.png */; };
+		DBE911851C997EBC0090FC25 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE9116E1C997EBC0090FC25 /* logo.png */; };
+		DBE911861C997EBC0090FC25 /* point1.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE9116F1C997EBC0090FC25 /* point1.png */; };
+		DBE911871C997EBC0090FC25 /* point2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE911701C997EBC0090FC25 /* point2.png */; };
+		DBE911881C997EBC0090FC25 /* point3.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE911711C997EBC0090FC25 /* point3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBE9113E1C996B870090FC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE911211C996B860090FC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBE911281C996B860090FC25;
+			remoteInfo = "cheese-academy";
+		};
+		DBE911491C996B870090FC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE911211C996B860090FC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBE911281C996B860090FC25;
+			remoteInfo = "cheese-academy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBE911291C996B860090FC25 /* cheese-academy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cheese-academy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE9112C1C996B860090FC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBE9112E1C996B860090FC25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBE911311C996B860090FC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBE911331C996B860090FC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBE911361C996B860090FC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBE911381C996B860090FC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE9113D1C996B870090FC25 /* cheese-academyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cheese-academyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE911411C996B870090FC25 /* cheese_academyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheese_academyTests.swift; sourceTree = "<group>"; };
+		DBE911431C996B870090FC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE911481C996B870090FC25 /* cheese-academyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cheese-academyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE9114C1C996B870090FC25 /* cheese_academyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheese_academyUITests.swift; sourceTree = "<group>"; };
+		DBE9114E1C996B870090FC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE9115B1C997EBC0090FC25 /* bg-cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-cheese.jpg"; sourceTree = "<group>"; };
+		DBE9115C1C997EBC0090FC25 /* btn-entry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-entry.png"; sourceTree = "<group>"; };
+		DBE9115D1C997EBC0090FC25 /* btn-pagetop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-pagetop.png"; sourceTree = "<group>"; };
+		DBE9115E1C997EBC0090FC25 /* catch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catch.png; sourceTree = "<group>"; };
+		DBE9115F1C997EBC0090FC25 /* cource-academy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cource-academy.png"; sourceTree = "<group>"; };
+		DBE911601C997EBC0090FC25 /* cource-lab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cource-lab.png"; sourceTree = "<group>"; };
+		DBE911611C997EBC0090FC25 /* gallery01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery01.jpg; sourceTree = "<group>"; };
+		DBE911621C997EBC0090FC25 /* gallery02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery02.jpg; sourceTree = "<group>"; };
+		DBE911631C997EBC0090FC25 /* gallery03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery03.jpg; sourceTree = "<group>"; };
+		DBE911641C997EBC0090FC25 /* gallery04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery04.jpg; sourceTree = "<group>"; };
+		DBE911651C997EBC0090FC25 /* gallery05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery05.jpg; sourceTree = "<group>"; };
+		DBE911661C997EBC0090FC25 /* gallery06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery06.jpg; sourceTree = "<group>"; };
+		DBE911671C997EBC0090FC25 /* gallery07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery07.jpg; sourceTree = "<group>"; };
+		DBE911681C997EBC0090FC25 /* gallery08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery08.jpg; sourceTree = "<group>"; };
+		DBE911691C997EBC0090FC25 /* gallery09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery09.jpg; sourceTree = "<group>"; };
+		DBE9116A1C997EBC0090FC25 /* gallery10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery10.jpg; sourceTree = "<group>"; };
+		DBE9116B1C997EBC0090FC25 /* gallery11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery11.jpg; sourceTree = "<group>"; };
+		DBE9116C1C997EBC0090FC25 /* gallery12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gallery12.jpg; sourceTree = "<group>"; };
+		DBE9116D1C997EBC0090FC25 /* kunsei_cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kunsei_cheese.png; sourceTree = "<group>"; };
+		DBE9116E1C997EBC0090FC25 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		DBE9116F1C997EBC0090FC25 /* point1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point1.png; sourceTree = "<group>"; };
+		DBE911701C997EBC0090FC25 /* point2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point2.png; sourceTree = "<group>"; };
+		DBE911711C997EBC0090FC25 /* point3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBE911261C996B860090FC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE9113A1C996B870090FC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE911451C996B870090FC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBE911201C996B860090FC25 = {
+			isa = PBXGroup;
+			children = (
+				DBE9112B1C996B860090FC25 /* cheese-academy */,
+				DBE911401C996B870090FC25 /* cheese-academyTests */,
+				DBE9114B1C996B870090FC25 /* cheese-academyUITests */,
+				DBE9112A1C996B860090FC25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBE9112A1C996B860090FC25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE911291C996B860090FC25 /* cheese-academy.app */,
+				DBE9113D1C996B870090FC25 /* cheese-academyTests.xctest */,
+				DBE911481C996B870090FC25 /* cheese-academyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBE9112B1C996B860090FC25 /* cheese-academy */ = {
+			isa = PBXGroup;
+			children = (
+				DBE9115A1C997E9C0090FC25 /* Image */,
+				DBE9112C1C996B860090FC25 /* AppDelegate.swift */,
+				DBE9112E1C996B860090FC25 /* ViewController.swift */,
+				DBE911301C996B860090FC25 /* Main.storyboard */,
+				DBE911331C996B860090FC25 /* Assets.xcassets */,
+				DBE911351C996B860090FC25 /* LaunchScreen.storyboard */,
+				DBE911381C996B860090FC25 /* Info.plist */,
+			);
+			path = "cheese-academy";
+			sourceTree = "<group>";
+		};
+		DBE911401C996B870090FC25 /* cheese-academyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBE911411C996B870090FC25 /* cheese_academyTests.swift */,
+				DBE911431C996B870090FC25 /* Info.plist */,
+			);
+			path = "cheese-academyTests";
+			sourceTree = "<group>";
+		};
+		DBE9114B1C996B870090FC25 /* cheese-academyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBE9114C1C996B870090FC25 /* cheese_academyUITests.swift */,
+				DBE9114E1C996B870090FC25 /* Info.plist */,
+			);
+			path = "cheese-academyUITests";
+			sourceTree = "<group>";
+		};
+		DBE9115A1C997E9C0090FC25 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DBE9115B1C997EBC0090FC25 /* bg-cheese.jpg */,
+				DBE9115C1C997EBC0090FC25 /* btn-entry.png */,
+				DBE9115D1C997EBC0090FC25 /* btn-pagetop.png */,
+				DBE9115E1C997EBC0090FC25 /* catch.png */,
+				DBE9115F1C997EBC0090FC25 /* cource-academy.png */,
+				DBE911601C997EBC0090FC25 /* cource-lab.png */,
+				DBE911611C997EBC0090FC25 /* gallery01.jpg */,
+				DBE911621C997EBC0090FC25 /* gallery02.jpg */,
+				DBE911631C997EBC0090FC25 /* gallery03.jpg */,
+				DBE911641C997EBC0090FC25 /* gallery04.jpg */,
+				DBE911651C997EBC0090FC25 /* gallery05.jpg */,
+				DBE911661C997EBC0090FC25 /* gallery06.jpg */,
+				DBE911671C997EBC0090FC25 /* gallery07.jpg */,
+				DBE911681C997EBC0090FC25 /* gallery08.jpg */,
+				DBE911691C997EBC0090FC25 /* gallery09.jpg */,
+				DBE9116A1C997EBC0090FC25 /* gallery10.jpg */,
+				DBE9116B1C997EBC0090FC25 /* gallery11.jpg */,
+				DBE9116C1C997EBC0090FC25 /* gallery12.jpg */,
+				DBE9116D1C997EBC0090FC25 /* kunsei_cheese.png */,
+				DBE9116E1C997EBC0090FC25 /* logo.png */,
+				DBE9116F1C997EBC0090FC25 /* point1.png */,
+				DBE911701C997EBC0090FC25 /* point2.png */,
+				DBE911711C997EBC0090FC25 /* point3.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBE911281C996B860090FC25 /* cheese-academy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE911511C996B870090FC25 /* Build configuration list for PBXNativeTarget "cheese-academy" */;
+			buildPhases = (
+				DBE911251C996B860090FC25 /* Sources */,
+				DBE911261C996B860090FC25 /* Frameworks */,
+				DBE911271C996B860090FC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cheese-academy";
+			productName = "cheese-academy";
+			productReference = DBE911291C996B860090FC25 /* cheese-academy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBE9113C1C996B870090FC25 /* cheese-academyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE911541C996B870090FC25 /* Build configuration list for PBXNativeTarget "cheese-academyTests" */;
+			buildPhases = (
+				DBE911391C996B870090FC25 /* Sources */,
+				DBE9113A1C996B870090FC25 /* Frameworks */,
+				DBE9113B1C996B870090FC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBE9113F1C996B870090FC25 /* PBXTargetDependency */,
+			);
+			name = "cheese-academyTests";
+			productName = "cheese-academyTests";
+			productReference = DBE9113D1C996B870090FC25 /* cheese-academyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBE911471C996B870090FC25 /* cheese-academyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE911571C996B870090FC25 /* Build configuration list for PBXNativeTarget "cheese-academyUITests" */;
+			buildPhases = (
+				DBE911441C996B870090FC25 /* Sources */,
+				DBE911451C996B870090FC25 /* Frameworks */,
+				DBE911461C996B870090FC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBE9114A1C996B870090FC25 /* PBXTargetDependency */,
+			);
+			name = "cheese-academyUITests";
+			productName = "cheese-academyUITests";
+			productReference = DBE911481C996B870090FC25 /* cheese-academyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBE911211C996B860090FC25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Shinsuke Nagata";
+				TargetAttributes = {
+					DBE911281C996B860090FC25 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7M43WWU572;
+					};
+					DBE9113C1C996B870090FC25 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DBE911281C996B860090FC25;
+					};
+					DBE911471C996B870090FC25 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DBE911281C996B860090FC25;
+					};
+				};
+			};
+			buildConfigurationList = DBE911241C996B860090FC25 /* Build configuration list for PBXProject "cheese-academy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBE911201C996B860090FC25;
+			productRefGroup = DBE9112A1C996B860090FC25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBE911281C996B860090FC25 /* cheese-academy */,
+				DBE9113C1C996B870090FC25 /* cheese-academyTests */,
+				DBE911471C996B870090FC25 /* cheese-academyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBE911271C996B860090FC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE911771C997EBC0090FC25 /* cource-lab.png in Resources */,
+				DBE911851C997EBC0090FC25 /* logo.png in Resources */,
+				DBE9117B1C997EBC0090FC25 /* gallery04.jpg in Resources */,
+				DBE911371C996B860090FC25 /* LaunchScreen.storyboard in Resources */,
+				DBE911841C997EBC0090FC25 /* kunsei_cheese.png in Resources */,
+				DBE9117E1C997EBC0090FC25 /* gallery07.jpg in Resources */,
+				DBE911341C996B860090FC25 /* Assets.xcassets in Resources */,
+				DBE9117F1C997EBC0090FC25 /* gallery08.jpg in Resources */,
+				DBE911861C997EBC0090FC25 /* point1.png in Resources */,
+				DBE911731C997EBC0090FC25 /* btn-entry.png in Resources */,
+				DBE9117D1C997EBC0090FC25 /* gallery06.jpg in Resources */,
+				DBE911321C996B860090FC25 /* Main.storyboard in Resources */,
+				DBE911881C997EBC0090FC25 /* point3.png in Resources */,
+				DBE911781C997EBC0090FC25 /* gallery01.jpg in Resources */,
+				DBE911821C997EBC0090FC25 /* gallery11.jpg in Resources */,
+				DBE911751C997EBC0090FC25 /* catch.png in Resources */,
+				DBE911801C997EBC0090FC25 /* gallery09.jpg in Resources */,
+				DBE911721C997EBC0090FC25 /* bg-cheese.jpg in Resources */,
+				DBE9117C1C997EBC0090FC25 /* gallery05.jpg in Resources */,
+				DBE911811C997EBC0090FC25 /* gallery10.jpg in Resources */,
+				DBE911791C997EBC0090FC25 /* gallery02.jpg in Resources */,
+				DBE911831C997EBC0090FC25 /* gallery12.jpg in Resources */,
+				DBE911871C997EBC0090FC25 /* point2.png in Resources */,
+				DBE911741C997EBC0090FC25 /* btn-pagetop.png in Resources */,
+				DBE911761C997EBC0090FC25 /* cource-academy.png in Resources */,
+				DBE9117A1C997EBC0090FC25 /* gallery03.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE9113B1C996B870090FC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE911461C996B870090FC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBE911251C996B860090FC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE9112F1C996B860090FC25 /* ViewController.swift in Sources */,
+				DBE9112D1C996B860090FC25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE911391C996B870090FC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE911421C996B870090FC25 /* cheese_academyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE911441C996B870090FC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE9114D1C996B870090FC25 /* cheese_academyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBE9113F1C996B870090FC25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBE911281C996B860090FC25 /* cheese-academy */;
+			targetProxy = DBE9113E1C996B870090FC25 /* PBXContainerItemProxy */;
+		};
+		DBE9114A1C996B870090FC25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBE911281C996B860090FC25 /* cheese-academy */;
+			targetProxy = DBE911491C996B870090FC25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBE911301C996B860090FC25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE911311C996B860090FC25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBE911351C996B860090FC25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE911361C996B860090FC25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBE9114F1C996B870090FC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBE911501C996B870090FC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBE911521C996B870090FC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "cheese-academy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shinsuke.cheese-academy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DBE911531C996B870090FC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "cheese-academy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shinsuke.cheese-academy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DBE911551C996B870090FC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cheese-academyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shinsuke.cheese-academyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cheese-academy.app/cheese-academy";
+			};
+			name = Debug;
+		};
+		DBE911561C996B870090FC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cheese-academyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shinsuke.cheese-academyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cheese-academy.app/cheese-academy";
+			};
+			name = Release;
+		};
+		DBE911581C996B870090FC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cheese-academyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shinsuke.cheese-academyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cheese-academy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DBE911591C996B870090FC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cheese-academyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shinsuke.cheese-academyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cheese-academy";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBE911241C996B860090FC25 /* Build configuration list for PBXProject "cheese-academy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE9114F1C996B870090FC25 /* Debug */,
+				DBE911501C996B870090FC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE911511C996B870090FC25 /* Build configuration list for PBXNativeTarget "cheese-academy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE911521C996B870090FC25 /* Debug */,
+				DBE911531C996B870090FC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBE911541C996B870090FC25 /* Build configuration list for PBXNativeTarget "cheese-academyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE911551C996B870090FC25 /* Debug */,
+				DBE911561C996B870090FC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBE911571C996B870090FC25 /* Build configuration list for PBXNativeTarget "cheese-academyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE911581C996B870090FC25 /* Debug */,
+				DBE911591C996B870090FC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBE911211C996B860090FC25 /* Project object */;
+}
